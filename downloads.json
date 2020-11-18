@@ -22,6 +22,11 @@
        "branch": "5.0",
        "version": "5.0.10",
        "notes": "Redis 5.0 is the first version of Redis to introduce the new stream data type with consumer groups, sorted sets blocking pop operations, LFU/LRU info in RDB, Cluster manager inside redis-cli, active defragmentation V2, HyperLogLogs improvements and many other improvements. Redis 5 was release as GA in October 2018."
-     }
+     },
+  
+     "windows": {
+		"url": "https://www.memurai.com",
+		"notes": "The Redis project does not officially support Windows. However, the Memurai team develops and maintains this Windows port targeting Win64, with a free version for development and testing."
+	  }
   }
 }
